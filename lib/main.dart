@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ppt/slides/home_slide.dart';
+import 'package:flutter_ppt/slides/slide_five.dart';
 import 'package:flutter_ppt/slides/slide_four.dart';
 import 'package:flutter_ppt/slides/slide_three.dart';
 import 'package:flutter_ppt/slides/slide_two.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
                   fontSize: 20,
                   fontWeight: FontWeight.bold))),
       home: PageView(
-        children: [SlideFour()],
+        children: [SlideFive()],
       ),
     );
   }
