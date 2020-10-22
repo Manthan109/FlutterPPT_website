@@ -12,7 +12,11 @@ class HomeSlide extends StatelessWidget {
             Positioned(
                 left: 30,
                 top: 30,
-                child: Image.asset("assets/images/dsc.jpg",height: 100.0,width: 100.0,)),
+                child: Image.asset(
+                  "assets/images/dsc_linear.png",
+                  height: 200.0,
+                  width: 400.0,
+                )),
             Positioned(
                 left: 30,
                 top: 250,
